@@ -12,9 +12,17 @@ const Resume = () => {
    const [achievementData, setAchievementData] = useState(false);
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center">
-        <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+       <div className='flex justify-center mt-8 space-x-4'>
+      <a href="https://www.goodcv.com/cv/c6089a850dd061cf1840c6c691ac4854" target="_blank" rel="noopener noreferrer">
+      <button className="bg-designColor text-xl w-40 text-white font-bold py-2 px-4 rounded-full hover:bg-gray-700 transition duration-300">
+       View CV
+      </button>
+      </a>
       </div>
+      <div className="flex justify-center items-center text-center">
+        <Title  des="My Resume" />
+      </div>
+     
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
           <li
